@@ -1,0 +1,63 @@
+.main-bar {
+  width: 100%;
+  height: 60px;
+}
+
+.main-bar > a {
+  -webkit-text-size-adjust: 100%;
+  font-family: Open Sans, Arial, sans-serif;
+  margin: 0;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none !important;
+  color: #191b26;
+  font-size: 14px;
+  padding: 0 15px 19px;
+  opacity: 0.85;
+}
+
+.selected {
+  -webkit-text-size-adjust: 100%;
+  font-family: Open Sans, Arial, sans-serif;
+  margin: 0;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none !important;
+  color: #191b26;
+  font-size: 14px;
+  padding: 0 15px 19px;
+  border-bottom: 2px solid #02be6e;
+}
+
+.logo {
+  width: 100px;
+  height: 60px;
+  margin: 0 10px 0 10px;
+}
+
+.main-img {
+  width: 100%;
+  height: 650px;
+}
+
+.main-image {
+  width: 100%;
+  height: 650px;
+}
+
+.image-container.input {
+  width: 200px;
+  height: 60px;
+  font-size: 14px;
+}
+
+h3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+}
