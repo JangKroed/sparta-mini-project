@@ -31,9 +31,14 @@
 <div class="tm-hero d-flex justify-content-center align-items-center" id="image-container" style="margin-bottom: 50px;">
     <!-- <img class="main-image" src="../img/Search2.jpg" /> -->
     <form action="https://www.youtube.com/results" class="d-flex position-absolute tm-search-form" method="GET">
-        <input name="search_query" class="form-control tm-search-input" type="text" placeholder="YOUTUBE"
-               aria-label="Search" style="width: 700px; height: 55px;">
-        <button class="btn btn-light">검색</button>
+        <!--        <input name="search_query" class="form-control tm-search-input" type="text" placeholder="YOUTUBE"-->
+        <!--               aria-label="Search" style="width: 700px; height: 55px;">-->
+        <!--        <button class="btn btn-light">검색</button>-->
+        <div class="input-group mb-3">
+            <input name="search_query" type="text" class="form-control" placeholder="YOUTUBE"
+                   aria-label="Recipient's username" aria-describedby="button-addon2" style="width: 700px; height: 55px;">
+            <button class="btn btn-secondary" id="button-addon2">검색</button>
+        </div>
     </form>
 </div>
 <div id="videos" class="row tm-mb-90 tm-gallery">

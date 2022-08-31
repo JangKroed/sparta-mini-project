@@ -60,4 +60,5 @@ h3 {
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
   word-wrap: break-word;
+  height: 70px;
 }
